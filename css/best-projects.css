@@ -1,0 +1,36 @@
+.best-projects{
+    flex: 1;
+    display: flex;
+    height: auto;
+    margin-top: 2rem;
+    padding-top: 4rem;
+    align-items: center;  
+    flex-direction: column;
+}
+
+.best-projects h2 {
+    flex: 1;
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: column;  
+    align-items: center;      
+    
+}
+
+.contenedor{
+    position: relative;
+    height: 0px;
+    width: 100%;
+    padding-bottom: 56.25%;
+    align-items: center;
+    margin: 2rem;
+}
+
+.video{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 80%;
+
+}

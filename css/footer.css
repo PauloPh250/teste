@@ -1,0 +1,20 @@
+h1{
+    font-size: 28px;
+    text-align: center;
+    color: var(--vhite);
+    font-family: 'DM Sans';
+    font-weight: 400;
+    padding-left: 3rem;
+    margin-bottom: 2rem;
+    padding-right: 3rem;
+}
+h2 {
+    font-size: 26px;
+    text-align: center;
+    color: var(--vhite);
+    font-family: 'DM Sans';
+    font-weight: 400;
+    padding-bottom: 4rem;
+}
+
+

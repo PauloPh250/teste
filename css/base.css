@@ -1,0 +1,41 @@
+/******************
+* Base Style *
+*******************/
+/* Variables */
+:root {
+    --bg-dark: #0d0e10;
+    --vhite: #fff;
+    --gray: #8f92a1;
+}
+
+/*Overwrite browser defauls */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body{
+    height: 100%;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: "DM Sans", sans-serif;
+    background-color: var(--bg-dark);
+    color: var(--vhite);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    
+}

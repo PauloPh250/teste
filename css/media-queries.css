@@ -1,0 +1,66 @@
+@media screen and (min-width:468px) {
+    /* Recent Projects*/
+    .first-project {
+        width: 372px;
+        margin-right: 2rem;
+    }
+
+    .second-project {
+        width: 372px;
+        margin-right: 2rem;
+    }
+
+    .third-project {
+        width: 372px;
+        margin-right: 2rem;
+    }
+}
+
+
+@media screen and (min-width:768px) {
+    .recent-projects {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 4rem;
+    }
+     /* Recent Projects*/
+     .first-project {
+        width: 372px;
+        margin-right: 2rem;
+    }
+
+    .second-project {
+        width: 372px;
+        margin-right: 2rem;
+    }
+
+    .third-project {
+        width: 372px;
+        margin-right: 2rem;
+    }
+}
+
+@media screen and (min-width:928px) {
+    .first-project {
+        margin-right: 2rem;
+    }
+    .second-project {
+        margin-right: 2rem;
+    }
+}
+
+@media screen and (min-width:468px) {
+    .best-projects {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 4rem;
+        flex-direction: column;
+    }
+    .contenedor{
+        width: 372px;
+        margin-right: 2rem;
+    }
+
+}

@@ -1,0 +1,71 @@
+.contactMe {
+  display: flex; 
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+.contactMe h1{
+    font-family: 'DM Sans';
+    margin: 2rem;
+    margin-top: 2rem;
+    font-size: 24px;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-family: 'Poppins';
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+
+    font-size: 12px;
+
+}
+
+textarea{
+    resize: none;
+    font-family: 'DM Sans';
+    border-radius: 2rem;
+    padding: 1.5rem;
+    background-color: #332f44;
+    border: none;
+    color: white;
+}
+
+.input{
+    padding: 1rem;
+    padding-left: 1.5rem;
+    border-radius: 2rem;
+    width: 100%;
+    border: none;
+    color: white;
+    background-color: #332f44;
+}
+
+/* input::placeholder {
+    color: #fafafa;
+  } */
+
+button {
+    cursor: pointer;
+    padding: 2rem 6rem;
+    margin-top: 2rem;
+    border-radius: 4rem;
+    border: 0;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    transition: all 0.4s ease;
+    background-color: white;
+}
+
+button:hover{
+    color: var(--white);
+    border: 1px solid var(--bg-dark);
+    background-color: rebeccapurple;
+}

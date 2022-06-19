@@ -1,0 +1,117 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.hero img {
+    object-fit: contain;
+    width: 250px;
+    height: 250px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 4rem;
+}
+
+.hero h1 {
+    font-size: 36px;
+    text-align: center;
+    color: var(--vhite);
+    font-family: 'Poppins';
+    font-weight: 400;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 4rem;
+}
+
+.hero h3 {
+    font-size: 24px;
+    text-align: center;
+    color: var(--gray);
+    font-family: 'DM Sans';
+    font-weight: 400;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 4rem;
+}
+
+.hero h2{
+    font-size: 36px;
+    text-align: center;
+    color: var(--vhite);
+    font-family: 'Poppins';
+    font-weight: 400;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 4rem;
+}
+
+
+.whatsapp-link{
+    flex-direction: row;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    margin: 1rem;
+    padding: 1rem;
+    border: 0;
+    width: 80px;
+    height: 80px;
+    bottom: 15px;
+    margin-right: 1rem;
+    background-color: #000;
+    color:white;
+    border-radius: 50px;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px rgb(45, 45, 45);
+    z-index: 1000;
+}
+.whatsapp-link:hover{
+    cursor: pointer;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 4rem;
+    width: 80px;
+    height: 80px;
+    border: 0;
+    bottom: 15px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 25px;
+    transition: all 0.4s ease;
+    background-color: #40C351;
+    color: white;
+}
+.linkedin-link{
+    flex-direction: row;
+    position: relative;
+    cursor: pointer;
+    margin: 1rem;
+    padding: 1rem;
+    width: 60px;
+    height: 60px;
+    bottom: 15px;
+    margin-left: 2rem;
+    background-color: #000;
+    color:white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px rgb(45, 45, 45);
+}
+
+.linkedin-link:hover{
+    cursor: pointer;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 10px;  
+    bottom: 15px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 25px;
+    transition: all 0.4s ease;
+    background-color: #0e76a8;
+    color: white;
+}

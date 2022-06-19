@@ -1,0 +1,40 @@
+.recent-projects {
+    flex: 1;
+    display: flex;
+    height: auto;
+    margin-top: 4rem;
+    padding-top: 6rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recent-projects h3 {
+    color: var(--white);
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'DM Sans';
+}
+
+
+/* Recent Projects*/
+.first-project img {
+    width: 120%;
+    height: 500px;
+    margin-left: 2rem;
+    margin-right: 4rem;
+    padding-right: 8rem;
+    margin-bottom: 4rem;
+    
+}
+
+.second-project img {
+    width: 120%;
+    height: 500px;
+    margin-left: 2rem;
+    margin-right: 6rem;
+    padding-right: 8rem;
+    margin-bottom: 4rem;
+
+}
+
